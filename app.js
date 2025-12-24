@@ -20,7 +20,7 @@ const reviewsRouter = require("./routes/review.js");      //express Router
 const userRouter = require("./routes/user.js");      //express Router
 
 const session = require("express-session");
-const MongoStore = require('connect-mongo');
+const MongoStore = require('connect-mongo').default;
 const flash = require('connect-flash');
 
 
