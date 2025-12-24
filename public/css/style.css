@@ -1,0 +1,124 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif  !important;
+  display: flex;   /* this is to make footer in bottom :- idea is that body sould take 100vh and then body will take it; */
+  flex-direction: column; /* this is to make footer in bottom :- idea is that body sould take 100vh and then body will take it; */
+  min-height: 100vh; /* this is to make footer in bottom :- idea is that body sould take 100vh and then body will take it; */
+}
+.container{
+   flex: 1;  /* this is to make footer in bottom :- idea is that body sould take 100vh and then body will take it; */
+}
+
+/* Navbar */
+.navbar{
+  background-color: white;
+  height: 5rem;
+}
+
+.fa-location-arrow{
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link{
+  color: #222222 !important;
+}
+
+/* footer */
+
+.f-info{
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: #ebebeb;
+  flex-wrap: wrap;  /* ? */
+  justify-content: center;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+/* gkyrgfliuwhfuwoiuwbibu gkyrgfliuwhfuwoiuwbibu gkyrgfliuwhfuwoiuwbibu  */
+.f-info-links a + a::before {
+  content: ".";
+  margin: 0 10px; /* space on left and right */
+  color: #000;   /* optional color */
+}
+
+
+.f-info-links a:hover{
+  text-decoration: underline;
+}
+
+.f-info-links , .f-info-socials , .f-info-brand{
+ width: 100%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+/* Card */
+
+.listing-card{
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top{
+  border-radius: 1rem !important;
+  width: 100%;
+  object-fit: cover !important;
+}
+.card-body{
+  padding: 0 !important ;
+}
+
+.card-text{
+  font-weight: 400 !important;
+}
+
+.listing-links{
+  text-decoration: none;
+}
+
+/* Ovverlaying a card or Card Effect */
+
+.card-img-overlay{
+  opacity: 0;
+}
+.card-img-overlay:hover{
+  opacity: 0.2;
+  background-color: white;
+}
+
+/* New Page */
+
+.add-btn-new-ejs {  /* We can not use .add-btn-new.ejs ........... that will take ".ejs" as class */
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+/* Show Page */
+
+.show-img{
+  height: 30vh;
+}
+
+.btns{
+  display: flex;
+}
+
+.edit-btn{
+  background-color: #fe424d !important;
+  border: none !important;
+}
+
+.show-card{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

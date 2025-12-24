@@ -1,0 +1,10 @@
+.tax-info{
+  display: none;
+}
+
+.tax-toggle{
+  height: 2.5rem;
+  border: 1px solid rgb(82, 75, 75);
+  border-radius: 1rem;
+  padding: 0.7rem;
+}
