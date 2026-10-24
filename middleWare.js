@@ -58,7 +58,7 @@ const isReviewAuthor = async (req,res,next)=>{
     req.flash("error", " You did not the author of this review");
     return res.redirect(`/listings/${id}`)
   }
-  // ✅ AUTHOR CHECK (THIS IS THE CODE YOU ASKED ABOUT)
+  
   if (!review.author.equals(req.user._id)) {
     req.flash("error", "You are not allowed to do that");
     return res.redirect(`/listings/${reviewId}`);
