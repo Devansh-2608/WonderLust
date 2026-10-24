@@ -36,7 +36,7 @@ const dbUrl = process.env.ATLASDB_URL ;
 
 main()
   .then((res)=>{
-    console.log("succesfull connection.");
+    console.log("succesfull connection of dB.");
   })
   .catch((err) => {
     console.log(err)
